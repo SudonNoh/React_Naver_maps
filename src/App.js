@@ -4,9 +4,7 @@ import { Marker, NaverMap } from 'react-naver-maps';
 class App extends React.Component {
   constructor(props) {
     super(props);
-
-    const navermaps = window.naver.maps;
-
+    
     this.state = {
       center: { y: 36.350833, x: 127.385 },
     };
