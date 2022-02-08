@@ -26,7 +26,7 @@ class App extends React.Component {
         <NaverMap
           id="maps-getting-started-controlled"
           style={{ width: '800px', height: '800px' }}
-          defaultZoon={5}
+          defaultZoom={15}
           center={this.state.center}
           onCenterChange={(center) => this.setState({ center })}
         >
