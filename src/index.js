@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { RenderAfterNavermapsLoaded } from 'react-naver-maps';
 
 ReactDOM.render(
   <React.StrictMode>
-    <RenderAfterNavermapsLoaded ncpClientId={"gi7vptrut6"}>
+    <RenderAfterNavermapsLoaded ncpClientId={""}>
       <App />
     </RenderAfterNavermapsLoaded>
   </React.StrictMode>,
